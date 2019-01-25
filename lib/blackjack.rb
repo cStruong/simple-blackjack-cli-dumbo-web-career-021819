@@ -61,7 +61,7 @@ def runner
   end
   
   if card_total > 21
-    puts "You lost"
+  end_game
   end
   
 end
