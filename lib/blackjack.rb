@@ -58,6 +58,6 @@ def runner
   card_total += deal_card
   end
   
-end_game
+end_game(card_total)
 end
     
