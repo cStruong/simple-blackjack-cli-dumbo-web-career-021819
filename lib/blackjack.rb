@@ -52,6 +52,8 @@ end
 def runner
   welcome
   card_total = initial_round
+  
+  while card_total < 
   hit?(card_total)
   card_total += deal_card
   hit?(card_total)
