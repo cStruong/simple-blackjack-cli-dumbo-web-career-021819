@@ -57,7 +57,7 @@ def runner
   display_card_total
   
   while card_total < 21
-  hit?
+  hit?(card_total)
   end
   
   if card_total > 21
