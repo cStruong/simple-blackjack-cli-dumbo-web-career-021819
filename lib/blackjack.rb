@@ -60,6 +60,9 @@ def runner
   hit?
   end
   
+  if card_total > 21
+    puts "You lost"
+  end
   
 end
     
